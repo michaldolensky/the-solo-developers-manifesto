@@ -25,7 +25,7 @@ Each Phase should be timeboxed
 **1.1 Designing** :
 
 - complicated user interactions/simple requirements interaction with simple use case design (draw.io)
-- simple UI design with MS paint, use tested UI design patterns (e.g. Want to add search bar? use Google search bar design)
+- simple UI design (MS paint), use tested UI design patterns (e.g. Want to add search bar? use Google search bar design)
 - Spike solution (small experiment/program to research the answer to a problem)
 - simplest design (no fancy features etc, don&#39;t worry about future requirements)
 - worse is better, Software that is limited, but simple to use is better, than buggy or complex software with complex features (less features, more quality)
@@ -36,7 +36,7 @@ Each Phase should be timeboxed
 
 **1.2 Estimation:**
 
-- 10-20% buffer time while estimating deadline (E.g. 1-day buffer means, release date 29th-30th) (avoids stress &amp; frustrations)
+- 10-30% buffer time while estimating deadline (E.g. 1-day buffer means, release date 29th-30th) (avoids stress &amp; frustrations)
 - overestimation-Parkinson&#39;s law, underestimation-no work/feature get done
 - Proper estimation is very important for highest productivity (No time limit/deadline - Low productivity)
 
@@ -45,9 +45,9 @@ Each Phase should be timeboxed
 - Make sure I am following the manifesto properly
 - Start day by observing/tracking yesterday&#39;s task and deadline, things TODO today, and any blocking issue to fix it
 - Track the work daily to meet deadline (Zen Hub-burndown chart, Kanban board) &amp; correct productivity/blocking issue if any and prioritize accordingly
-- Use pomodoro Timer Technique for Time Management -\&gt; work for n tasks for x mins(30-90mins,depending on estimated time), small break(3-5mins) if fewer than n task completed else large break(10-15mins), pomodoro is indivisible and cannot be interrupted, other things should be done after pomodoro or else abandon pomodoro. After task completion any remaining time used for Reviewing the work and also seeing from learning POV (What I learned? What could be done better etc)
+- Use pomodoro Timer Technique for Time Management -> work for n tasks for x mins(30-90mins,depending on estimated time), small break(3-5mins) if fewer than n task completed else large break(10-15mins), pomodoro is indivisible and cannot be interrupted, other things should be done after pomodoro or else abandon pomodoro. After task completion any remaining time used for Reviewing the work and also seeing from learning POV (What I learned? What could be done better etc)
 - Use Test-driven development (TDD) during coding:
-  - Convert software feature/requirement -\&gt; test case (concise, note it down for future unit testing),
+  - Convert software feature/requirement -> test case (concise, note it down for future unit testing),
   - run test and see it fail,
   - write code to only pass the test (No refactoring)
   - run test and see it pass (the code should not break any existing feature) (if it&#39;s gotten hard to pass the above code, then revert the above code to avoid excessive debugging) &amp; commit,
@@ -60,11 +60,11 @@ Each Phase should be timeboxed
 **2.2 Documentation &amp; PR:**
 
 - Minimal documentation for users and also about how the code works (for myself &amp; future Devs) (Code comments, unit test cases above function, etc)
-- PR/Marketing (Write Medium/dev.to/LinkedIn Article, Answering SO, Quora etc, 4P&#39;s-Price, Product, Place, Promotion, Market Targeting/Segmentation message with differentiation &amp; positioning) (Refer similar software to make marketing message), use good GFX(pixabay)
+- PR/Marketing (Write Medium/dev.to/LinkedIn Article, Reddit, Product Hunt, Answering SO, Quora, SEO keywords etc, 4P&#39;s-Price, Product, Place, Promotion, Market Targeting/Segmentation message with differentiation &amp; positioning) (Refer similar software to make marketing message), use good Graphics(pixabay), Test Market(get feedback)
 
 **3. Measurement:**
 
-- Measure &amp; document the estimated time vs actual time taken for subtask, to help in future estimation using my historical values (by seeing time taken previous for similar subtask) and also for retrospective to make things better
+- Measure &amp; document the estimated time vs actual time taken for subtask, to help in future estimation using my historical values (by seeing time taken previously for similar subtask) and also for retrospective to make things better
 - Google Timer to measure task and then use Google stopwatch to measure extra time taken (This helps in future estimation by comparing estimated time vs actual time)
 
 **4. Retrospective:**
@@ -85,7 +85,7 @@ Each Phase should be timeboxed
 
 **Things to Remember:**
 
-- Eliminate waste (partial work, multitasking, task switching, bugs, extra features, relearning, unnecessarily complex solution, unnecessary stress, building wrong feature, rework)
+- Eliminate waste (partial work, multitasking, task switching, bugs, extra features, relearning, unnecessarily complex solution, unnecessary stress, building wrong feature, rework, waiting)
 - Implement new learnings
 - Decide as late as possible (so that to know more about problem and not waste time on things that&#39;s not required)
 - Deliver ASAP
@@ -97,10 +97,10 @@ Each Phase should be timeboxed
 - commits on one main branch to avoid merge hell (don&#39;t keep multiple feature branch)
 - When a bug is found, tests are created before the bug is addressed (a bug is not an error in logic; it is a test that was not written)
 - embrace change (new features etc)
-- During sprint you might have personal ideas (Urge to Google search something), project related ideas (new features), just write those into personal notes/to-do list to refer it back in personal time. This will reduce stress and help us to be focused (GTD Method)
+- During sprint you might have personal ideas (Urge to Google search something), project related ideas (new features), just write those into personal notes/to-do list(or somwhere else) to refer it back in personal/work time. This will reduce stress and help us to be focused (GTD Method)
 - Automated testing (unit etc), CI/CD is great for software which have to be maintained for long time/always and not for small GitHub hobby projects which are onetime thing
 - High cohesion in function (only does one simple task) and low coupling (low dependency on other function)
-- Take longer break(30-60mins) when no longer productive/frustrated, if doesn&#39;t work, then do the work next day
+- Take break/nap(~30mins) when no longer productive/frustrated, if doesn&#39;t work, then do the work next day
 - Batch Check everything one time daily (emails, messages, SMS, calls, news, sites etc) (Don&#39;t check again &amp; again) and mark imp emails to reply at end of work time
 - Headphones (inc conc.mp3) to avoid distraction
 
@@ -115,7 +115,7 @@ Each Phase should be timeboxed
 
 **Why Solo is Great:**
 
-- Be humble &amp; happy &amp; be thankful to God for being solo developer, as you are saved from Ideocracies of a team
+- Be humble &amp; happy &amp; be thankful to God for being solo developer, as you are saved from idiocracies of a team
 - No Difference of opinion
 - No rework due to communication gap
 - No need to show off work to someone
@@ -154,13 +154,14 @@ You should give equal importance to each. Some people work whole day without giv
 - Prefer working after waking up
 - 1-day rest after every iteration/sprint/release
 - Take 15-30min nap 6-7 hrs after waking up (Increases Productivity)
-- Have ergonomics Computer chair &amp; table and take 20sec break every 15mins (Use strechly, stand up and move during break &amp; stretch your body) (Prevents Computer related injuries)
+- Have ergonomics Computer chair & table(keep back posture straight) and take 20sec break every 15mins (Use stretchly, stand up and move during break &amp; stretch your body) (Prevents Computer related injuries)
 
 **Personal Time:**
 
 - This is the time you give to yourself, for example looking your health, clothes, hygiene, ID renewal etc (For example torn shoes, repair it or get it repaired from cobbler or buy new one)
 - Exercise weekly twice (e.g.: Rope skipping 10mins for healthy heart)(Sat,Tue Fixed Date)
 - Be physically active by performing household chores
+- Eat moderately (avoids laziness)
 - Start working on tasks in here after work time
 
 **Family/Social Time:**
